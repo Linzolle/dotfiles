@@ -1,0 +1,5 @@
+[user]
+	email = linzolle@gmail.com
+	name = Linzolle
+[init]
+	templatedir=~/.config/git/template/
