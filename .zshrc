@@ -108,5 +108,4 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# For dotfile git repo
-alias config='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
+neofetch # yes lol
