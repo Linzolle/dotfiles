@@ -3,3 +3,5 @@
 	name = Linzolle
 [init]
 	templatedir=~/.config/git/template/
+[core]
+	autocrlf = input
