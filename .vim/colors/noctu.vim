@@ -86,7 +86,7 @@ hi Number          ctermfg=12
 hi Boolean         ctermfg=4
 hi Special         ctermfg=13
 hi Ignore          ctermfg=0
-hi PreProc         ctermfg=8   cterm=bold
+hi PreProc         ctermfg=2   cterm=bold
 hi! link Operator  Delimiter
 hi! link Error     ErrorMsg
 

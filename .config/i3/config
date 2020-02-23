@@ -185,5 +185,5 @@ bindsym Control+Print exec maim -s | xclip -selection clipboard -t image/png
 
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id picom -b
-exec --no-startup-id feh --bg-scale /home/lin/Pictures/wallpaper.png
+exec --no-startup-id nitrogen --restore
 exec --no-startup-id dunst
