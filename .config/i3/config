@@ -10,6 +10,10 @@ set $mod Mod4
 default_border pixel 1 
 default_floating_border normal
 
+# COLORS
+#		border	back	text	indic	child_border
+client.focused 	#ba8baf	#ba8baf	#ffffff	#fafbff	#ba8baf
+
 # i3 gaps stuff, cuz i think it looks nice.
 gaps inner 10
 smart_gaps on

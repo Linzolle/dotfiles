@@ -39,13 +39,17 @@ format-margin =
 format-offset =
 
 [colors]
+background = #AA181818
+foreground = #d8d8d8
+alert = #ab4642
+
 ; Nord theme ============
-background = #2F343F
-foreground = #f3f4f5
-alert = #d08770
-volume-min = #a3be8c
-volume-med = #ebcb8b
-volume-max = #bf616a
+;background = #2F343F
+;foreground = #f3f4f5
+;alert = #d08770
+;volume-min = #a3be8c
+;volume-med = #ebcb8b
+;volume-max = #bf616a
 ; =======================
 
 ; Gotham theme ==========
