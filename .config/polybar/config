@@ -1769,7 +1769,7 @@ label-disconnected-foreground = ${colors.foreground}
 type = internal/network
 interface = wlp2s0
 interval = 3.0
-label-connected = %essid%
+label-connected = %upspeed% UP %downspeed% DOWN
 
 format-connected = <label-connected>
 ;format-connected = <ramp-signal> <label-connected>
