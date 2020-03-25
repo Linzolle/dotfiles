@@ -12,3 +12,14 @@ set relativenumber
 " Encoding
 set encoding=utf-8
 set fileencoding=utf-8
+
+" Plugin
+call plug#begin('~/.vim/plugged')
+
+	" Smooth scrolling
+	Plug 'psliwka/vim-smoothie'
+
+call plug#end()
+
+" Misc.
+set nocompatible

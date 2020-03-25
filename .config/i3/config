@@ -11,8 +11,10 @@ default_border pixel 1
 default_floating_border normal
 
 # COLORS
-#		border	back	text	indic	child_border
-client.focused 	#ba8baf	#ba8baf	#ffffff	#fafbff	#ba8baf
+#				border	back	text	indic	highlight
+client.focused 			#6666cc	#333366	#ffffff	#9999ff	#555599
+client.focused_inactive 	#111122	#111122	#666677	#555599	#111122
+client.unfocused	 	#111122	#111122	#666677	#555599	#111122
 
 # i3 gaps stuff, cuz i think it looks nice.
 gaps inner 10

@@ -182,48 +182,33 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: true
 
-# Base16 Default Dark 256 - alacritty color config
-# Chris Kempson (http://chriskempson.com)
 colors:
   # Default colors
   primary:
-    background: '0x181818'
-    foreground: '0xd8d8d8'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '0x181818'
-    cursor: '0xd8d8d8'
+    background: '0x000011'
+    foreground: '0xddddee'
 
   # Normal colors
   normal:
-    black:   '0x181818'
-    red:     '0xab4642'
-    green:   '0xa1b56c'
-    yellow:  '0xf7ca88'
-    blue:    '0x7cafc2'
-    magenta: '0xba8baf'
-    cyan:    '0x86c1b9'
-    white:   '0xd8d8d8'
+    black:   '0x333366'
+    red:     '0x6666cc'
+    green:   '0x0099cc'
+    yellow:  '0x3366cc'
+    blue:    '0x006699'
+    magenta: '0x0066ff'
+    cyan:    '0x669999'
+    white:   '0x99cccc'
 
   # Bright colors
   bright:
-    black:   '0x585858'
-    red:     '0xab4642'
-    green:   '0xa1b56c'
-    yellow:  '0xf7ca88'
-    blue:    '0x7cafc2'
-    magenta: '0xba8baf'
-    cyan:    '0x86c1b9'
-    white:   '0xf8f8f8'
-
-  indexed_colors:
-    - { index: 16, color: '0xdc9656' }
-    - { index: 17, color: '0xa16946' }
-    - { index: 18, color: '0x282828' }
-    - { index: 19, color: '0x383838' }
-    - { index: 20, color: '0xb8b8b8' }
-    - { index: 21, color: '0xe8e8e8' }
+    black:   '0x555599'
+    red:     '0x9999ff'
+    green:   '0x00ccff'
+    yellow:  '0x6699ff'
+    blue:    '0x0099cc'
+    magenta: '0x0099ff'
+    cyan:    '0x66cccc'
+    white:   '0xccffff'
 
 # Visual Bell
 #
