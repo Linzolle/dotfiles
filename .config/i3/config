@@ -15,6 +15,7 @@ default_floating_border normal
 client.focused 			#6666cc	#333366	#ffffff	#9999ff	#555599
 client.focused_inactive 	#111122	#111122	#666677	#555599	#111122
 client.unfocused	 	#111122	#111122	#666677	#555599	#111122
+client.urgent 			#6666cc	#00ccff	#000011	#00ccff	#00ccff
 
 # i3 gaps stuff, cuz i think it looks nice.
 gaps inner 10
@@ -101,8 +102,8 @@ bindsym $mod+a focus parent
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1:"
-set $ws2 "2:"
-set $ws3 "3:"
+set $ws2 "2:爵"
+set $ws3 "3:"
 set $ws4 "4:"
 set $ws5 "5"
 set $ws6 "6"
