@@ -54,7 +54,7 @@ export PATH=/mnt/c/Program\ Files\ (x86)/BYOND/bin:$PATH
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+#plugins=(git)
 
 # User configuration
 
@@ -90,3 +90,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias ls="ls --group-directories-first --color=auto"
+
+source /usr/local/share/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
