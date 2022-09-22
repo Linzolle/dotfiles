@@ -26,6 +26,7 @@ call plug#begin('~/.vim/plugged')
 
 	" Smooth scrolling
 	Plug 'psliwka/vim-smoothie'
+	Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 

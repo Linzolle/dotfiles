@@ -1,3 +1,4 @@
+figlet gaming | lolcat -F 0.5
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -92,3 +93,4 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 alias ls="ls --group-directories-first --color=auto"
 
 source /usr/local/share/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
